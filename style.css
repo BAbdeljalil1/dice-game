@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -46,6 +52,23 @@ h1 {
 h3 {
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+
+  margin-block: 30px;
+}
+
+li {
+  font-size: 30px;
+  margin-inline: 5px;
+}
+
+input {
+  height: 30px;
+  width: 30px;
 }
 
 button {
